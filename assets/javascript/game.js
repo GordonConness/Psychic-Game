@@ -33,6 +33,7 @@ document.onkeyup = function(event)  {
 
     else {
         turnCount--;
+        guessedLetters;
         
     }
   
