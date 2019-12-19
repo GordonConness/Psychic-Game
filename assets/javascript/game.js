@@ -8,7 +8,7 @@ var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p",
 var randomLetter = Math.floor(Math.random() * alphabet.length);
 var computerChoice = alphabet[randomLetter];
 document.onkeyup = function(event)  {
-    //userguessedLettersText.innerHTML = event.key;
+    
     var userGuess = event.key;
     console.log(userGuess);
 
