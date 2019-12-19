@@ -25,8 +25,9 @@ document.onkeyup = function(event)  {
     }
     
     else if (turnCount === 0) {
-        lossesCount++;    
-        guesses--;
+        lossesCount++;
+        guessedLetters;    
+        alert("Ha! Loser!");
         reset();
     }
 
